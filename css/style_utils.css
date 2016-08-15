@@ -1,3 +1,6 @@
+* {
+  outline: 1px solid #def; }
+
 .h-1 {
   width: 1%; }
 
@@ -597,8 +600,5 @@
 
 .h-100-vh {
   width: 100%; }
-
-* {
-  outline: 1px solid #def; }
 
 /*# sourceMappingURL=style_utils.css.map */

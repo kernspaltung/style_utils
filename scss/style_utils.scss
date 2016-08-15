@@ -1,16 +1,3 @@
-$show_wireframes: true !default;
+@import 'wireframes';
 
 @import 'h';
-
-@mixin wireframes() {
-
-   @if $show_wireframes {
-
-      @debug "$show_wireframes is #{$show_wireframes}";
-      outline: 1px solid #def;
-   }
-
-}
-
-
-* { @include wireframes; }
