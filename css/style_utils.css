@@ -3498,4 +3498,14 @@
   width: 100vw;
   height: 100vh; }
 
+.h-a {
+  height: auto; }
+
+.w-a {
+  width: auto; }
+
+.wh-a {
+  width: auto;
+  height: auto; }
+
 /*# sourceMappingURL=style_utils.css.map */
