@@ -17,11 +17,11 @@ $num_steps:100;
 
    // viewport percentage
 
-   .w-#{($i * 1)}-w { width: $step_value_vw * $i; }
+   .w-#{($i * 1)}-v { width: $step_value_vw * $i; }
 
-   .h-#{($i * 1)}-w { height: $step_value_vh * $i; }
+   .h-#{($i * 1)}-v { height: $step_value_vh * $i; }
 
-   .wh-#{($i * 1)}-w { width: $step_value_vw * $i; height: $step_value_vh * $i; }
+   .wh-#{($i * 1)}-v { width: $step_value_vw * $i; height: $step_value_vh * $i; }
 
 
 }
