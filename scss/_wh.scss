@@ -12,7 +12,7 @@ $num_steps:100;
 
    .h-#{($i * 1)} { height: $step_value_vh * $i; }
 
-   .wh-#{($i * 1)} { width: $step_value_pct * $i; height: $step_value * $i; }
+   .wh-#{($i * 1)} { width: $step_value_pct * $i; height: $step_value_pct * $i; }
 
 
    // window percentage
