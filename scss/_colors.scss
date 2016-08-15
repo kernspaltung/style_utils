@@ -1,0 +1,55 @@
+
+$white: #fff;
+$black: #000;
+$primario: #0bc1ed;
+$secundario: #06a0bb;
+$terciario: #00f070;
+
+$lista_colores: (
+  blanco   $white,
+  negro   $black,
+  primario   $primario,
+  secundario $secundario,
+  terciario $terciario
+);
+
+
+@each $value in $lista_colores {
+
+
+	   .color_#{nth($value, 1)} {
+			& {
+				color: nth($value, 2) !important;
+			}
+	   }
+	   .color_#{nth($value, 1)}_bg {
+			& {
+				background-color: nth($value, 2) !important;
+			}
+	   }
+	   .color_#{nth($value, 1)}_bd {
+			& {
+				border: 1px solid white;
+				border-color: nth($value, 2) !important;
+			}
+	   }
+
+	   .color_#{nth($value, 1)}_hover:hover {
+			& {
+				color: nth($value, 2) !important;
+			}
+	   }
+	   .color_#{nth($value, 1)}_hover_bg:hover {
+			& {
+				background-color: nth($value, 2) !important;
+			}
+	   }
+	   .color_#{nth($value, 1)}_hover_bd:hover {
+			& {
+				border: 1px solid white;
+				border-color: nth($value, 2) !important;
+			}
+	   }
+
+
+}

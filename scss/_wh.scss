@@ -1,0 +1,27 @@
+$step:1;
+$step_value_pct:1%;
+$step_value_vh:1vh;
+$step_value_vw:1vw;
+$num_steps:100;
+
+@for $i from 1 through $num_steps {
+
+
+   // percentage
+   .w-#{($i * 1)} { width: $step_value_pct * $i; }
+
+   .h-#{($i * 1)} { height: $step_value_vh * $i; }
+
+   .wh-#{($i * 1)} { width: $step_value_pct * $i; height: $step_value * $i; }
+
+
+   // window percentage
+
+   .w-#{($i * 1)}-w { width: $step_value_vw * $i; }
+
+   .h-#{($i * 1)}-w { height: $step_value_vh * $i; }
+
+   .wh-#{($i * 1)}-w { width: $step_value_vw * $i; height: $step_value_vh * $i; }
+
+
+}
