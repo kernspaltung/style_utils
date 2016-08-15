@@ -15,7 +15,7 @@ $num_steps:100;
    .wh-#{($i * 1)} { width: $step_value_pct * $i; height: $step_value_pct * $i; }
 
 
-   // window percentage
+   // viewport percentage
 
    .w-#{($i * 1)}-w { width: $step_value_vw * $i; }
 
