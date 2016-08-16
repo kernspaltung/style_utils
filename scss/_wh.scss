@@ -10,7 +10,7 @@ $num_steps:100;
    // percentage
    .w-#{($i * 1)} { width: $step_value_pct * $i; }
 
-   .h-#{($i * 1)} { height: $step_value_vh * $i; }
+   .h-#{($i * 1)} { height: $step_value_pct * $i; }
 
    .wh-#{($i * 1)} { width: $step_value_pct * $i; height: $step_value_pct * $i; }
 
