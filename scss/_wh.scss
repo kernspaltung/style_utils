@@ -1,3 +1,5 @@
+$full_height:true;
+
 $breakpoint_md:640px;
 $breakpoint_lg:1024px;
 $breakpoint_xl:1400px;
@@ -7,6 +9,13 @@ $step_value_pct:1%;
 $step_value_vh:1vh;
 $step_value_vw:1vw;
 $num_steps:100;
+
+@if $full_height {
+   @debug "$full_height is #{$show_wireframes}";
+   div,header,footer,section,article {
+      height: 100%;
+   }
+}
 
 @for $i from 1 through $num_steps {
 
