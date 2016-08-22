@@ -5,34 +5,36 @@ $directions: (
    l left
 );
 
+$classes_and_properties: (
+   p padding,
+   m margin
+);
 
-@for $i from 0 through 40 {
 
+@each $class_and_property in $classes_and_properties {
+
+   @debug "Generating classes for: #{nth($class_and_property,2)}";
+   @for $i from 0 through 40 {
+
+      $class_name: #{nth($class_and_property,1)};
+      $property_name: #{nth($class_and_property,2)};
 
       $step: floor($i/4);
       $fraction: ($i % 4);
 
       @if $fraction == 0 {
-         $size: ($spacing * $step);
+         $property_value: ($spacing * $step);
 
-         .p-#{$step} {
-            padding: $size;
-         }
-
-         .m-#{$step} {
-            margin: $size;
+         .#{$class_name}-#{$step} {
+            #{$property_name}: $property_value;
          }
 
       }
       @else {
-         $size: ($spacing * $step) + (($spacing/4)*$fraction);
+         $property_value: ($spacing * $step) + (($spacing/4)*$fraction);
 
-         .p-#{$step}-#{$fraction} {
-            padding: $size;
-         }
-
-         .m-#{$step}-#{$fraction} {
-            margin: $size;
+         .#{$class_name}-#{$step}-#{$fraction} {
+            #{$property_name}: $property_value;
          }
 
       }
@@ -41,60 +43,45 @@ $directions: (
 
 
 
-   @each $breakpoint in $breakpoints {
-      @media screen and (min-width: #{nth($breakpoint,2)}) {
+      @each $breakpoint in $breakpoints {
+         @media screen and (min-width: #{nth($breakpoint,2)}) {
 
-         @if $fraction == 0 {
+            @if $fraction == 0 {
 
-            $size: ($spacing * $step);
+               $property_value: ($spacing * $step);
 
-            .p-#{nth($breakpoint,1)}-#{$step} {
-               padding: $size;
-            }
-
-            .m-#{nth($breakpoint,1)}-#{$step} {
-               margin: $size;
-            }
-
-            @each $direction in $directions {
-               .p-#{nth($breakpoint,1)}-#{nth($direction,1)}-#{$step} {
-                  padding-#{nth($direction,2)}: $size;
+               .#{$class_name}-#{nth($breakpoint,1)}-#{$step} {
+                  #{$property_name}: $property_value;
                }
 
-               .m-#{nth($breakpoint,1)}-#{nth($direction,1)}-#{$step} {
-                  margin-#{nth($direction,2)}: $size;
+               @each $direction in $directions {
+                  .#{$class_name}-#{nth($direction,1)}-#{nth($breakpoint,1)}-#{$step} {
+                     #{$property_name}-#{nth($direction,2)}: $property_value;
+                  }
+
                }
 
             }
+            @else {
 
-         }
-         @else {
+               $property_value: ($spacing * $step) + (($spacing/4)*$fraction);
 
-            $size: ($spacing * $step) + (($spacing/4)*$fraction);
-
-            .p-#{nth($breakpoint,1)}-#{$step}-#{$fraction} {
-               padding: $size;
-            }
-
-            .m-#{nth($breakpoint,1)}-#{$step}-#{$fraction} {
-               margin: $size;
-            }
-
-            @each $direction in $directions {
-               .p-#{nth($breakpoint,1)}-#{nth($direction,1)}-#{$step}-#{$fraction} {
-                  padding-#{nth($direction,2)}: $size;
+               .#{$class_name}-#{nth($breakpoint,1)}-#{$step}-#{$fraction} {
+                  #{$property_name}: $property_value;
                }
 
-               .m-#{nth($breakpoint,1)}-#{nth($direction,1)}-#{$step}-#{$fraction} {
-                  margin-#{nth($direction,2)}: $size;
+               @each $direction in $directions {
+                  .#{$class_name}-#{nth($direction,1)}-#{nth($breakpoint,1)}-#{$step}-#{$fraction} {
+                     #{$property_name}-#{nth($direction,2)}: $property_value;
+                  }
+
                }
 
             }
-
          }
       }
+
    }
-
 
 
 }
