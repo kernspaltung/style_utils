@@ -1,5 +1,14 @@
 $spacing: 15px;
 
+
+$breakpoints: (
+   xs 0,
+   sm 768,
+   md 992,
+   lg 1200
+);
+
+
 @import 'oldies';
 
 @import 'reset';
@@ -12,4 +21,4 @@ $spacing: 15px;
 
 @import 'scroll';
 
-@import 'padding';
+@import 'spacing';

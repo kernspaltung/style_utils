@@ -1,0 +1,100 @@
+$directions: (
+   t top,
+   r right,
+   b bottom,
+   l left
+);
+
+
+@for $i from 0 through 40 {
+
+
+      $step: floor($i/4);
+      $fraction: ($i % 4);
+
+      @if $fraction == 0 {
+         $size: ($spacing * $step);
+
+         .p-#{$step} {
+            padding: $size;
+         }
+
+         .m-#{$step} {
+            margin: $size;
+         }
+
+      }
+      @else {
+         $size: ($spacing * $step) + (($spacing/4)*$fraction);
+
+         .p-#{$step}-#{$fraction} {
+            padding: $size;
+         }
+
+         .m-#{$step}-#{$fraction} {
+            margin: $size;
+         }
+
+      }
+
+
+
+
+
+   @each $breakpoint in $breakpoints {
+      @media screen and (min-width: #{nth($breakpoint,2)}) {
+
+         @if $fraction == 0 {
+
+            $size: ($spacing * $step);
+
+            .p-#{nth($breakpoint,1)}-#{$step} {
+               padding: $size;
+            }
+
+            .m-#{nth($breakpoint,1)}-#{$step} {
+               margin: $size;
+            }
+
+            @each $direction in $directions {
+               .p-#{nth($breakpoint,1)}-#{nth($direction,1)}-#{$step} {
+                  padding-#{nth($direction,2)}: $size;
+               }
+
+               .m-#{nth($breakpoint,1)}-#{nth($direction,1)}-#{$step} {
+                  margin-#{nth($direction,2)}: $size;
+               }
+
+            }
+
+         }
+         @else {
+
+            $size: ($spacing * $step) + (($spacing/4)*$fraction);
+
+            .p-#{nth($breakpoint,1)}-#{$step}-#{$fraction} {
+               padding: $size;
+            }
+
+            .m-#{nth($breakpoint,1)}-#{$step}-#{$fraction} {
+               margin: $size;
+            }
+
+            @each $direction in $directions {
+               .p-#{nth($direction,1)}-#{$step}-#{$fraction} {
+                  padding-#{nth($direction,2)}: $size;
+               }
+
+               .m-#{nth($direction,1)}-#{$step}-#{$fraction} {
+                  margin-#{nth($direction,2)}: $size;
+               }
+
+            }
+
+         }
+      }
+   }
+
+
+
+}
