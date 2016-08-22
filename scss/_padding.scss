@@ -1,45 +1,48 @@
-@for $i from 0 through 40 {
 
-   $step: floor($i/4);
-   $fraction: ($i % 4);
-   @if $fraction == 0 {
+$directions: (
+   t top,
+   r right,
+   b bottom,
+   l left
+);
 
-      .p-#{$step} {
-         padding: ($spacing * $step);
-      }
-      .p-t-#{$step} {
-         padding-top: ($spacing * $step);
-      }
-      .p-r-#{$step} {
-         padding-right: ($spacing * $step);
-      }
-      .p-b-#{$step} {
-         padding-bottom: ($spacing * $step);
-      }
-      .p-l-#{$step} {
-         padding-left: ($spacing * $step);
-      }
 
+
+   .p {
 
    }
-   @else {
+@for $i from 0 through 40 {
 
-      .p-#{$step}-#{$fraction} {
-         padding: ($spacing * $step) + (($spacing/4)*$fraction);
-      }
-      .p-t-#{$step}-#{$fraction} {
-         padding-top: ($spacing * $step) + (($spacing/4)*$fraction);
-      }
-      .p-r-#{$step}-#{$fraction} {
-         padding-right: ($spacing * $step) + (($spacing/4)*$fraction);
-      }
-      .p-b-#{$step}-#{$fraction} {
-         padding-bottom: ($spacing * $step) + (($spacing/4)*$fraction);
-      }
-      .p-l-#{$step}-#{$fraction} {
-         padding-left: ($spacing * $step) + (($spacing/4)*$fraction);
-      }
+      @each $value in $directions {
 
+      $step: floor($i/4);
+      $fraction: ($i % 4);
+      @if $fraction == 0 {
+
+         $padding: ($spacing * $step);
+
+         .p-#{$step} {
+            padding: $padding;
+         }
+         .p-#{nth($value,1)}-#{$step} {
+            padding-#{nth($value,2)}: $padding;
+         }
+
+      }
+      @else {
+
+
+         $padding: ($spacing * $step) + (($spacing/4)*$fraction);
+
+         .p-#{$step}-#{$fraction} {
+            padding: $padding;
+         }
+         .p-#{nth($value,1)}-#{$step} {
+            padding-#{nth($value,2)}: $padding;
+         }
+         
+
+      }
 
    }
 
