@@ -81,11 +81,11 @@ $directions: (
             }
 
             @each $direction in $directions {
-               .p-#{nth($direction,1)}-#{$step}-#{$fraction} {
+               .p-#{nth($breakpoint,1)}-#{nth($direction,1)}-#{$step}-#{$fraction} {
                   padding-#{nth($direction,2)}: $size;
                }
 
-               .m-#{nth($direction,1)}-#{$step}-#{$fraction} {
+               .m-#{nth($breakpoint,1)}-#{nth($direction,1)}-#{$step}-#{$fraction} {
                   margin-#{nth($direction,2)}: $size;
                }
 
