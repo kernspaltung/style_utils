@@ -1,4 +1,4 @@
-$show_wireframes: true !default;
+$show_wireframes: false !default;
 @mixin wireframes() {
 
    @if $show_wireframes {
