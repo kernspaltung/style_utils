@@ -11709,7 +11709,7 @@ div, header, footer, section, article {
 
   .p-l-xs-0 {
     padding-left: 0px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-0 {
     padding: 0px; }
 
@@ -11724,7 +11724,7 @@ div, header, footer, section, article {
 
   .p-l-sm-0 {
     padding-left: 0px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-0 {
     padding: 0px; }
 
@@ -11772,7 +11772,7 @@ div, header, footer, section, article {
 
   .p-l-xs-0-1 {
     padding-left: 3.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-0-1 {
     padding: 3.75px; }
 
@@ -11787,7 +11787,7 @@ div, header, footer, section, article {
 
   .p-l-sm-0-1 {
     padding-left: 3.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-0-1 {
     padding: 3.75px; }
 
@@ -11835,7 +11835,7 @@ div, header, footer, section, article {
 
   .p-l-xs-0-2 {
     padding-left: 7.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-0-2 {
     padding: 7.5px; }
 
@@ -11850,7 +11850,7 @@ div, header, footer, section, article {
 
   .p-l-sm-0-2 {
     padding-left: 7.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-0-2 {
     padding: 7.5px; }
 
@@ -11898,7 +11898,7 @@ div, header, footer, section, article {
 
   .p-l-xs-0-3 {
     padding-left: 11.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-0-3 {
     padding: 11.25px; }
 
@@ -11913,7 +11913,7 @@ div, header, footer, section, article {
 
   .p-l-sm-0-3 {
     padding-left: 11.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-0-3 {
     padding: 11.25px; }
 
@@ -11961,7 +11961,7 @@ div, header, footer, section, article {
 
   .p-l-xs-1 {
     padding-left: 15px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-1 {
     padding: 15px; }
 
@@ -11976,7 +11976,7 @@ div, header, footer, section, article {
 
   .p-l-sm-1 {
     padding-left: 15px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-1 {
     padding: 15px; }
 
@@ -12024,7 +12024,7 @@ div, header, footer, section, article {
 
   .p-l-xs-1-1 {
     padding-left: 18.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-1-1 {
     padding: 18.75px; }
 
@@ -12039,7 +12039,7 @@ div, header, footer, section, article {
 
   .p-l-sm-1-1 {
     padding-left: 18.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-1-1 {
     padding: 18.75px; }
 
@@ -12087,7 +12087,7 @@ div, header, footer, section, article {
 
   .p-l-xs-1-2 {
     padding-left: 22.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-1-2 {
     padding: 22.5px; }
 
@@ -12102,7 +12102,7 @@ div, header, footer, section, article {
 
   .p-l-sm-1-2 {
     padding-left: 22.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-1-2 {
     padding: 22.5px; }
 
@@ -12150,7 +12150,7 @@ div, header, footer, section, article {
 
   .p-l-xs-1-3 {
     padding-left: 26.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-1-3 {
     padding: 26.25px; }
 
@@ -12165,7 +12165,7 @@ div, header, footer, section, article {
 
   .p-l-sm-1-3 {
     padding-left: 26.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-1-3 {
     padding: 26.25px; }
 
@@ -12213,7 +12213,7 @@ div, header, footer, section, article {
 
   .p-l-xs-2 {
     padding-left: 30px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-2 {
     padding: 30px; }
 
@@ -12228,7 +12228,7 @@ div, header, footer, section, article {
 
   .p-l-sm-2 {
     padding-left: 30px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-2 {
     padding: 30px; }
 
@@ -12276,7 +12276,7 @@ div, header, footer, section, article {
 
   .p-l-xs-2-1 {
     padding-left: 33.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-2-1 {
     padding: 33.75px; }
 
@@ -12291,7 +12291,7 @@ div, header, footer, section, article {
 
   .p-l-sm-2-1 {
     padding-left: 33.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-2-1 {
     padding: 33.75px; }
 
@@ -12339,7 +12339,7 @@ div, header, footer, section, article {
 
   .p-l-xs-2-2 {
     padding-left: 37.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-2-2 {
     padding: 37.5px; }
 
@@ -12354,7 +12354,7 @@ div, header, footer, section, article {
 
   .p-l-sm-2-2 {
     padding-left: 37.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-2-2 {
     padding: 37.5px; }
 
@@ -12402,7 +12402,7 @@ div, header, footer, section, article {
 
   .p-l-xs-2-3 {
     padding-left: 41.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-2-3 {
     padding: 41.25px; }
 
@@ -12417,7 +12417,7 @@ div, header, footer, section, article {
 
   .p-l-sm-2-3 {
     padding-left: 41.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-2-3 {
     padding: 41.25px; }
 
@@ -12465,7 +12465,7 @@ div, header, footer, section, article {
 
   .p-l-xs-3 {
     padding-left: 45px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-3 {
     padding: 45px; }
 
@@ -12480,7 +12480,7 @@ div, header, footer, section, article {
 
   .p-l-sm-3 {
     padding-left: 45px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-3 {
     padding: 45px; }
 
@@ -12528,7 +12528,7 @@ div, header, footer, section, article {
 
   .p-l-xs-3-1 {
     padding-left: 48.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-3-1 {
     padding: 48.75px; }
 
@@ -12543,7 +12543,7 @@ div, header, footer, section, article {
 
   .p-l-sm-3-1 {
     padding-left: 48.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-3-1 {
     padding: 48.75px; }
 
@@ -12591,7 +12591,7 @@ div, header, footer, section, article {
 
   .p-l-xs-3-2 {
     padding-left: 52.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-3-2 {
     padding: 52.5px; }
 
@@ -12606,7 +12606,7 @@ div, header, footer, section, article {
 
   .p-l-sm-3-2 {
     padding-left: 52.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-3-2 {
     padding: 52.5px; }
 
@@ -12654,7 +12654,7 @@ div, header, footer, section, article {
 
   .p-l-xs-3-3 {
     padding-left: 56.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-3-3 {
     padding: 56.25px; }
 
@@ -12669,7 +12669,7 @@ div, header, footer, section, article {
 
   .p-l-sm-3-3 {
     padding-left: 56.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-3-3 {
     padding: 56.25px; }
 
@@ -12717,7 +12717,7 @@ div, header, footer, section, article {
 
   .p-l-xs-4 {
     padding-left: 60px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-4 {
     padding: 60px; }
 
@@ -12732,7 +12732,7 @@ div, header, footer, section, article {
 
   .p-l-sm-4 {
     padding-left: 60px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-4 {
     padding: 60px; }
 
@@ -12780,7 +12780,7 @@ div, header, footer, section, article {
 
   .p-l-xs-4-1 {
     padding-left: 63.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-4-1 {
     padding: 63.75px; }
 
@@ -12795,7 +12795,7 @@ div, header, footer, section, article {
 
   .p-l-sm-4-1 {
     padding-left: 63.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-4-1 {
     padding: 63.75px; }
 
@@ -12843,7 +12843,7 @@ div, header, footer, section, article {
 
   .p-l-xs-4-2 {
     padding-left: 67.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-4-2 {
     padding: 67.5px; }
 
@@ -12858,7 +12858,7 @@ div, header, footer, section, article {
 
   .p-l-sm-4-2 {
     padding-left: 67.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-4-2 {
     padding: 67.5px; }
 
@@ -12906,7 +12906,7 @@ div, header, footer, section, article {
 
   .p-l-xs-4-3 {
     padding-left: 71.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-4-3 {
     padding: 71.25px; }
 
@@ -12921,7 +12921,7 @@ div, header, footer, section, article {
 
   .p-l-sm-4-3 {
     padding-left: 71.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-4-3 {
     padding: 71.25px; }
 
@@ -12969,7 +12969,7 @@ div, header, footer, section, article {
 
   .p-l-xs-5 {
     padding-left: 75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-5 {
     padding: 75px; }
 
@@ -12984,7 +12984,7 @@ div, header, footer, section, article {
 
   .p-l-sm-5 {
     padding-left: 75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-5 {
     padding: 75px; }
 
@@ -13032,7 +13032,7 @@ div, header, footer, section, article {
 
   .p-l-xs-5-1 {
     padding-left: 78.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-5-1 {
     padding: 78.75px; }
 
@@ -13047,7 +13047,7 @@ div, header, footer, section, article {
 
   .p-l-sm-5-1 {
     padding-left: 78.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-5-1 {
     padding: 78.75px; }
 
@@ -13095,7 +13095,7 @@ div, header, footer, section, article {
 
   .p-l-xs-5-2 {
     padding-left: 82.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-5-2 {
     padding: 82.5px; }
 
@@ -13110,7 +13110,7 @@ div, header, footer, section, article {
 
   .p-l-sm-5-2 {
     padding-left: 82.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-5-2 {
     padding: 82.5px; }
 
@@ -13158,7 +13158,7 @@ div, header, footer, section, article {
 
   .p-l-xs-5-3 {
     padding-left: 86.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-5-3 {
     padding: 86.25px; }
 
@@ -13173,7 +13173,7 @@ div, header, footer, section, article {
 
   .p-l-sm-5-3 {
     padding-left: 86.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-5-3 {
     padding: 86.25px; }
 
@@ -13221,7 +13221,7 @@ div, header, footer, section, article {
 
   .p-l-xs-6 {
     padding-left: 90px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-6 {
     padding: 90px; }
 
@@ -13236,7 +13236,7 @@ div, header, footer, section, article {
 
   .p-l-sm-6 {
     padding-left: 90px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-6 {
     padding: 90px; }
 
@@ -13284,7 +13284,7 @@ div, header, footer, section, article {
 
   .p-l-xs-6-1 {
     padding-left: 93.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-6-1 {
     padding: 93.75px; }
 
@@ -13299,7 +13299,7 @@ div, header, footer, section, article {
 
   .p-l-sm-6-1 {
     padding-left: 93.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-6-1 {
     padding: 93.75px; }
 
@@ -13347,7 +13347,7 @@ div, header, footer, section, article {
 
   .p-l-xs-6-2 {
     padding-left: 97.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-6-2 {
     padding: 97.5px; }
 
@@ -13362,7 +13362,7 @@ div, header, footer, section, article {
 
   .p-l-sm-6-2 {
     padding-left: 97.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-6-2 {
     padding: 97.5px; }
 
@@ -13410,7 +13410,7 @@ div, header, footer, section, article {
 
   .p-l-xs-6-3 {
     padding-left: 101.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-6-3 {
     padding: 101.25px; }
 
@@ -13425,7 +13425,7 @@ div, header, footer, section, article {
 
   .p-l-sm-6-3 {
     padding-left: 101.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-6-3 {
     padding: 101.25px; }
 
@@ -13473,7 +13473,7 @@ div, header, footer, section, article {
 
   .p-l-xs-7 {
     padding-left: 105px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-7 {
     padding: 105px; }
 
@@ -13488,7 +13488,7 @@ div, header, footer, section, article {
 
   .p-l-sm-7 {
     padding-left: 105px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-7 {
     padding: 105px; }
 
@@ -13536,7 +13536,7 @@ div, header, footer, section, article {
 
   .p-l-xs-7-1 {
     padding-left: 108.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-7-1 {
     padding: 108.75px; }
 
@@ -13551,7 +13551,7 @@ div, header, footer, section, article {
 
   .p-l-sm-7-1 {
     padding-left: 108.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-7-1 {
     padding: 108.75px; }
 
@@ -13599,7 +13599,7 @@ div, header, footer, section, article {
 
   .p-l-xs-7-2 {
     padding-left: 112.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-7-2 {
     padding: 112.5px; }
 
@@ -13614,7 +13614,7 @@ div, header, footer, section, article {
 
   .p-l-sm-7-2 {
     padding-left: 112.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-7-2 {
     padding: 112.5px; }
 
@@ -13662,7 +13662,7 @@ div, header, footer, section, article {
 
   .p-l-xs-7-3 {
     padding-left: 116.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-7-3 {
     padding: 116.25px; }
 
@@ -13677,7 +13677,7 @@ div, header, footer, section, article {
 
   .p-l-sm-7-3 {
     padding-left: 116.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-7-3 {
     padding: 116.25px; }
 
@@ -13725,7 +13725,7 @@ div, header, footer, section, article {
 
   .p-l-xs-8 {
     padding-left: 120px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-8 {
     padding: 120px; }
 
@@ -13740,7 +13740,7 @@ div, header, footer, section, article {
 
   .p-l-sm-8 {
     padding-left: 120px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-8 {
     padding: 120px; }
 
@@ -13788,7 +13788,7 @@ div, header, footer, section, article {
 
   .p-l-xs-8-1 {
     padding-left: 123.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-8-1 {
     padding: 123.75px; }
 
@@ -13803,7 +13803,7 @@ div, header, footer, section, article {
 
   .p-l-sm-8-1 {
     padding-left: 123.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-8-1 {
     padding: 123.75px; }
 
@@ -13851,7 +13851,7 @@ div, header, footer, section, article {
 
   .p-l-xs-8-2 {
     padding-left: 127.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-8-2 {
     padding: 127.5px; }
 
@@ -13866,7 +13866,7 @@ div, header, footer, section, article {
 
   .p-l-sm-8-2 {
     padding-left: 127.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-8-2 {
     padding: 127.5px; }
 
@@ -13914,7 +13914,7 @@ div, header, footer, section, article {
 
   .p-l-xs-8-3 {
     padding-left: 131.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-8-3 {
     padding: 131.25px; }
 
@@ -13929,7 +13929,7 @@ div, header, footer, section, article {
 
   .p-l-sm-8-3 {
     padding-left: 131.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-8-3 {
     padding: 131.25px; }
 
@@ -13977,7 +13977,7 @@ div, header, footer, section, article {
 
   .p-l-xs-9 {
     padding-left: 135px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-9 {
     padding: 135px; }
 
@@ -13992,7 +13992,7 @@ div, header, footer, section, article {
 
   .p-l-sm-9 {
     padding-left: 135px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-9 {
     padding: 135px; }
 
@@ -14040,7 +14040,7 @@ div, header, footer, section, article {
 
   .p-l-xs-9-1 {
     padding-left: 138.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-9-1 {
     padding: 138.75px; }
 
@@ -14055,7 +14055,7 @@ div, header, footer, section, article {
 
   .p-l-sm-9-1 {
     padding-left: 138.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-9-1 {
     padding: 138.75px; }
 
@@ -14103,7 +14103,7 @@ div, header, footer, section, article {
 
   .p-l-xs-9-2 {
     padding-left: 142.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-9-2 {
     padding: 142.5px; }
 
@@ -14118,7 +14118,7 @@ div, header, footer, section, article {
 
   .p-l-sm-9-2 {
     padding-left: 142.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-9-2 {
     padding: 142.5px; }
 
@@ -14166,7 +14166,7 @@ div, header, footer, section, article {
 
   .p-l-xs-9-3 {
     padding-left: 146.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-9-3 {
     padding: 146.25px; }
 
@@ -14181,7 +14181,7 @@ div, header, footer, section, article {
 
   .p-l-sm-9-3 {
     padding-left: 146.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-9-3 {
     padding: 146.25px; }
 
@@ -14229,7 +14229,7 @@ div, header, footer, section, article {
 
   .p-l-xs-10 {
     padding-left: 150px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .p-sm-10 {
     padding: 150px; }
 
@@ -14244,7 +14244,7 @@ div, header, footer, section, article {
 
   .p-l-sm-10 {
     padding-left: 150px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .p-md-10 {
     padding: 150px; }
 
@@ -14292,7 +14292,7 @@ div, header, footer, section, article {
 
   .m-l-xs-0 {
     margin-left: 0px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-0 {
     margin: 0px; }
 
@@ -14307,7 +14307,7 @@ div, header, footer, section, article {
 
   .m-l-sm-0 {
     margin-left: 0px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-0 {
     margin: 0px; }
 
@@ -14355,7 +14355,7 @@ div, header, footer, section, article {
 
   .m-l-xs-0-1 {
     margin-left: 3.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-0-1 {
     margin: 3.75px; }
 
@@ -14370,7 +14370,7 @@ div, header, footer, section, article {
 
   .m-l-sm-0-1 {
     margin-left: 3.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-0-1 {
     margin: 3.75px; }
 
@@ -14418,7 +14418,7 @@ div, header, footer, section, article {
 
   .m-l-xs-0-2 {
     margin-left: 7.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-0-2 {
     margin: 7.5px; }
 
@@ -14433,7 +14433,7 @@ div, header, footer, section, article {
 
   .m-l-sm-0-2 {
     margin-left: 7.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-0-2 {
     margin: 7.5px; }
 
@@ -14481,7 +14481,7 @@ div, header, footer, section, article {
 
   .m-l-xs-0-3 {
     margin-left: 11.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-0-3 {
     margin: 11.25px; }
 
@@ -14496,7 +14496,7 @@ div, header, footer, section, article {
 
   .m-l-sm-0-3 {
     margin-left: 11.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-0-3 {
     margin: 11.25px; }
 
@@ -14544,7 +14544,7 @@ div, header, footer, section, article {
 
   .m-l-xs-1 {
     margin-left: 15px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-1 {
     margin: 15px; }
 
@@ -14559,7 +14559,7 @@ div, header, footer, section, article {
 
   .m-l-sm-1 {
     margin-left: 15px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-1 {
     margin: 15px; }
 
@@ -14607,7 +14607,7 @@ div, header, footer, section, article {
 
   .m-l-xs-1-1 {
     margin-left: 18.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-1-1 {
     margin: 18.75px; }
 
@@ -14622,7 +14622,7 @@ div, header, footer, section, article {
 
   .m-l-sm-1-1 {
     margin-left: 18.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-1-1 {
     margin: 18.75px; }
 
@@ -14670,7 +14670,7 @@ div, header, footer, section, article {
 
   .m-l-xs-1-2 {
     margin-left: 22.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-1-2 {
     margin: 22.5px; }
 
@@ -14685,7 +14685,7 @@ div, header, footer, section, article {
 
   .m-l-sm-1-2 {
     margin-left: 22.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-1-2 {
     margin: 22.5px; }
 
@@ -14733,7 +14733,7 @@ div, header, footer, section, article {
 
   .m-l-xs-1-3 {
     margin-left: 26.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-1-3 {
     margin: 26.25px; }
 
@@ -14748,7 +14748,7 @@ div, header, footer, section, article {
 
   .m-l-sm-1-3 {
     margin-left: 26.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-1-3 {
     margin: 26.25px; }
 
@@ -14796,7 +14796,7 @@ div, header, footer, section, article {
 
   .m-l-xs-2 {
     margin-left: 30px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-2 {
     margin: 30px; }
 
@@ -14811,7 +14811,7 @@ div, header, footer, section, article {
 
   .m-l-sm-2 {
     margin-left: 30px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-2 {
     margin: 30px; }
 
@@ -14859,7 +14859,7 @@ div, header, footer, section, article {
 
   .m-l-xs-2-1 {
     margin-left: 33.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-2-1 {
     margin: 33.75px; }
 
@@ -14874,7 +14874,7 @@ div, header, footer, section, article {
 
   .m-l-sm-2-1 {
     margin-left: 33.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-2-1 {
     margin: 33.75px; }
 
@@ -14922,7 +14922,7 @@ div, header, footer, section, article {
 
   .m-l-xs-2-2 {
     margin-left: 37.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-2-2 {
     margin: 37.5px; }
 
@@ -14937,7 +14937,7 @@ div, header, footer, section, article {
 
   .m-l-sm-2-2 {
     margin-left: 37.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-2-2 {
     margin: 37.5px; }
 
@@ -14985,7 +14985,7 @@ div, header, footer, section, article {
 
   .m-l-xs-2-3 {
     margin-left: 41.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-2-3 {
     margin: 41.25px; }
 
@@ -15000,7 +15000,7 @@ div, header, footer, section, article {
 
   .m-l-sm-2-3 {
     margin-left: 41.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-2-3 {
     margin: 41.25px; }
 
@@ -15048,7 +15048,7 @@ div, header, footer, section, article {
 
   .m-l-xs-3 {
     margin-left: 45px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-3 {
     margin: 45px; }
 
@@ -15063,7 +15063,7 @@ div, header, footer, section, article {
 
   .m-l-sm-3 {
     margin-left: 45px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-3 {
     margin: 45px; }
 
@@ -15111,7 +15111,7 @@ div, header, footer, section, article {
 
   .m-l-xs-3-1 {
     margin-left: 48.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-3-1 {
     margin: 48.75px; }
 
@@ -15126,7 +15126,7 @@ div, header, footer, section, article {
 
   .m-l-sm-3-1 {
     margin-left: 48.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-3-1 {
     margin: 48.75px; }
 
@@ -15174,7 +15174,7 @@ div, header, footer, section, article {
 
   .m-l-xs-3-2 {
     margin-left: 52.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-3-2 {
     margin: 52.5px; }
 
@@ -15189,7 +15189,7 @@ div, header, footer, section, article {
 
   .m-l-sm-3-2 {
     margin-left: 52.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-3-2 {
     margin: 52.5px; }
 
@@ -15237,7 +15237,7 @@ div, header, footer, section, article {
 
   .m-l-xs-3-3 {
     margin-left: 56.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-3-3 {
     margin: 56.25px; }
 
@@ -15252,7 +15252,7 @@ div, header, footer, section, article {
 
   .m-l-sm-3-3 {
     margin-left: 56.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-3-3 {
     margin: 56.25px; }
 
@@ -15300,7 +15300,7 @@ div, header, footer, section, article {
 
   .m-l-xs-4 {
     margin-left: 60px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-4 {
     margin: 60px; }
 
@@ -15315,7 +15315,7 @@ div, header, footer, section, article {
 
   .m-l-sm-4 {
     margin-left: 60px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-4 {
     margin: 60px; }
 
@@ -15363,7 +15363,7 @@ div, header, footer, section, article {
 
   .m-l-xs-4-1 {
     margin-left: 63.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-4-1 {
     margin: 63.75px; }
 
@@ -15378,7 +15378,7 @@ div, header, footer, section, article {
 
   .m-l-sm-4-1 {
     margin-left: 63.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-4-1 {
     margin: 63.75px; }
 
@@ -15426,7 +15426,7 @@ div, header, footer, section, article {
 
   .m-l-xs-4-2 {
     margin-left: 67.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-4-2 {
     margin: 67.5px; }
 
@@ -15441,7 +15441,7 @@ div, header, footer, section, article {
 
   .m-l-sm-4-2 {
     margin-left: 67.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-4-2 {
     margin: 67.5px; }
 
@@ -15489,7 +15489,7 @@ div, header, footer, section, article {
 
   .m-l-xs-4-3 {
     margin-left: 71.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-4-3 {
     margin: 71.25px; }
 
@@ -15504,7 +15504,7 @@ div, header, footer, section, article {
 
   .m-l-sm-4-3 {
     margin-left: 71.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-4-3 {
     margin: 71.25px; }
 
@@ -15552,7 +15552,7 @@ div, header, footer, section, article {
 
   .m-l-xs-5 {
     margin-left: 75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-5 {
     margin: 75px; }
 
@@ -15567,7 +15567,7 @@ div, header, footer, section, article {
 
   .m-l-sm-5 {
     margin-left: 75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-5 {
     margin: 75px; }
 
@@ -15615,7 +15615,7 @@ div, header, footer, section, article {
 
   .m-l-xs-5-1 {
     margin-left: 78.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-5-1 {
     margin: 78.75px; }
 
@@ -15630,7 +15630,7 @@ div, header, footer, section, article {
 
   .m-l-sm-5-1 {
     margin-left: 78.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-5-1 {
     margin: 78.75px; }
 
@@ -15678,7 +15678,7 @@ div, header, footer, section, article {
 
   .m-l-xs-5-2 {
     margin-left: 82.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-5-2 {
     margin: 82.5px; }
 
@@ -15693,7 +15693,7 @@ div, header, footer, section, article {
 
   .m-l-sm-5-2 {
     margin-left: 82.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-5-2 {
     margin: 82.5px; }
 
@@ -15741,7 +15741,7 @@ div, header, footer, section, article {
 
   .m-l-xs-5-3 {
     margin-left: 86.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-5-3 {
     margin: 86.25px; }
 
@@ -15756,7 +15756,7 @@ div, header, footer, section, article {
 
   .m-l-sm-5-3 {
     margin-left: 86.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-5-3 {
     margin: 86.25px; }
 
@@ -15804,7 +15804,7 @@ div, header, footer, section, article {
 
   .m-l-xs-6 {
     margin-left: 90px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-6 {
     margin: 90px; }
 
@@ -15819,7 +15819,7 @@ div, header, footer, section, article {
 
   .m-l-sm-6 {
     margin-left: 90px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-6 {
     margin: 90px; }
 
@@ -15867,7 +15867,7 @@ div, header, footer, section, article {
 
   .m-l-xs-6-1 {
     margin-left: 93.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-6-1 {
     margin: 93.75px; }
 
@@ -15882,7 +15882,7 @@ div, header, footer, section, article {
 
   .m-l-sm-6-1 {
     margin-left: 93.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-6-1 {
     margin: 93.75px; }
 
@@ -15930,7 +15930,7 @@ div, header, footer, section, article {
 
   .m-l-xs-6-2 {
     margin-left: 97.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-6-2 {
     margin: 97.5px; }
 
@@ -15945,7 +15945,7 @@ div, header, footer, section, article {
 
   .m-l-sm-6-2 {
     margin-left: 97.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-6-2 {
     margin: 97.5px; }
 
@@ -15993,7 +15993,7 @@ div, header, footer, section, article {
 
   .m-l-xs-6-3 {
     margin-left: 101.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-6-3 {
     margin: 101.25px; }
 
@@ -16008,7 +16008,7 @@ div, header, footer, section, article {
 
   .m-l-sm-6-3 {
     margin-left: 101.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-6-3 {
     margin: 101.25px; }
 
@@ -16056,7 +16056,7 @@ div, header, footer, section, article {
 
   .m-l-xs-7 {
     margin-left: 105px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-7 {
     margin: 105px; }
 
@@ -16071,7 +16071,7 @@ div, header, footer, section, article {
 
   .m-l-sm-7 {
     margin-left: 105px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-7 {
     margin: 105px; }
 
@@ -16119,7 +16119,7 @@ div, header, footer, section, article {
 
   .m-l-xs-7-1 {
     margin-left: 108.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-7-1 {
     margin: 108.75px; }
 
@@ -16134,7 +16134,7 @@ div, header, footer, section, article {
 
   .m-l-sm-7-1 {
     margin-left: 108.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-7-1 {
     margin: 108.75px; }
 
@@ -16182,7 +16182,7 @@ div, header, footer, section, article {
 
   .m-l-xs-7-2 {
     margin-left: 112.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-7-2 {
     margin: 112.5px; }
 
@@ -16197,7 +16197,7 @@ div, header, footer, section, article {
 
   .m-l-sm-7-2 {
     margin-left: 112.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-7-2 {
     margin: 112.5px; }
 
@@ -16245,7 +16245,7 @@ div, header, footer, section, article {
 
   .m-l-xs-7-3 {
     margin-left: 116.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-7-3 {
     margin: 116.25px; }
 
@@ -16260,7 +16260,7 @@ div, header, footer, section, article {
 
   .m-l-sm-7-3 {
     margin-left: 116.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-7-3 {
     margin: 116.25px; }
 
@@ -16308,7 +16308,7 @@ div, header, footer, section, article {
 
   .m-l-xs-8 {
     margin-left: 120px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-8 {
     margin: 120px; }
 
@@ -16323,7 +16323,7 @@ div, header, footer, section, article {
 
   .m-l-sm-8 {
     margin-left: 120px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-8 {
     margin: 120px; }
 
@@ -16371,7 +16371,7 @@ div, header, footer, section, article {
 
   .m-l-xs-8-1 {
     margin-left: 123.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-8-1 {
     margin: 123.75px; }
 
@@ -16386,7 +16386,7 @@ div, header, footer, section, article {
 
   .m-l-sm-8-1 {
     margin-left: 123.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-8-1 {
     margin: 123.75px; }
 
@@ -16434,7 +16434,7 @@ div, header, footer, section, article {
 
   .m-l-xs-8-2 {
     margin-left: 127.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-8-2 {
     margin: 127.5px; }
 
@@ -16449,7 +16449,7 @@ div, header, footer, section, article {
 
   .m-l-sm-8-2 {
     margin-left: 127.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-8-2 {
     margin: 127.5px; }
 
@@ -16497,7 +16497,7 @@ div, header, footer, section, article {
 
   .m-l-xs-8-3 {
     margin-left: 131.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-8-3 {
     margin: 131.25px; }
 
@@ -16512,7 +16512,7 @@ div, header, footer, section, article {
 
   .m-l-sm-8-3 {
     margin-left: 131.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-8-3 {
     margin: 131.25px; }
 
@@ -16560,7 +16560,7 @@ div, header, footer, section, article {
 
   .m-l-xs-9 {
     margin-left: 135px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-9 {
     margin: 135px; }
 
@@ -16575,7 +16575,7 @@ div, header, footer, section, article {
 
   .m-l-sm-9 {
     margin-left: 135px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-9 {
     margin: 135px; }
 
@@ -16623,7 +16623,7 @@ div, header, footer, section, article {
 
   .m-l-xs-9-1 {
     margin-left: 138.75px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-9-1 {
     margin: 138.75px; }
 
@@ -16638,7 +16638,7 @@ div, header, footer, section, article {
 
   .m-l-sm-9-1 {
     margin-left: 138.75px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-9-1 {
     margin: 138.75px; }
 
@@ -16686,7 +16686,7 @@ div, header, footer, section, article {
 
   .m-l-xs-9-2 {
     margin-left: 142.5px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-9-2 {
     margin: 142.5px; }
 
@@ -16701,7 +16701,7 @@ div, header, footer, section, article {
 
   .m-l-sm-9-2 {
     margin-left: 142.5px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-9-2 {
     margin: 142.5px; }
 
@@ -16749,7 +16749,7 @@ div, header, footer, section, article {
 
   .m-l-xs-9-3 {
     margin-left: 146.25px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-9-3 {
     margin: 146.25px; }
 
@@ -16764,7 +16764,7 @@ div, header, footer, section, article {
 
   .m-l-sm-9-3 {
     margin-left: 146.25px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-9-3 {
     margin: 146.25px; }
 
@@ -16812,7 +16812,7 @@ div, header, footer, section, article {
 
   .m-l-xs-10 {
     margin-left: 150px; } }
-@media screen and (min-width: 768) {
+@media screen and (min-width: 640) {
   .m-sm-10 {
     margin: 150px; }
 
@@ -16827,7 +16827,7 @@ div, header, footer, section, article {
 
   .m-l-sm-10 {
     margin-left: 150px; } }
-@media screen and (min-width: 992) {
+@media screen and (min-width: 1024) {
   .m-md-10 {
     margin: 150px; }
 
