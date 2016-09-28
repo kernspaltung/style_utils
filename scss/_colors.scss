@@ -11,6 +11,9 @@ $neutral_oscuro: #444;
 $lista-colores: (
   blanco   $white,
   negro   $black,
+  "red"   #f00,
+  "white"   $white,
+  "black"   $black,
   primario   $primario,
   secundario $secundario,
   terciario $terciario,
@@ -20,7 +23,7 @@ $lista-colores: (
 );
 
 
-@each $value in $lista-colores {      
+@each $value in $lista-colores {
 
 	   .color-#{nth($value, 1)} {
 			& {
