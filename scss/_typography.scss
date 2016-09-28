@@ -1,0 +1,25 @@
+$font-sizes: (
+  xxxs 7px,
+  xxs 9px,
+  xs 11px,
+  s 12px,
+  m-s 14px,
+  m 16px,
+  m-l 18px,
+  l 21px,
+  xl 24px,
+  xxl 28px,
+  xxxl 33px,
+  xxxxl 40px,
+);
+
+@debug "Generating font-size classes";
+
+
+@each $font-size in $font-sizes {
+
+   .font-#{nth( $font-size, 1 )} {
+      font-size: nth( $font-size, 2 );
+   }
+
+}
