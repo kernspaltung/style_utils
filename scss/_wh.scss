@@ -99,3 +99,25 @@ $num_steps:100;
    width: auto;
    height: auto;
 }
+
+@each $breakpoint in $breakpoints {
+
+   @media screen and ( min-width: #{nth($breakpoint,2)} ) {
+
+
+         .h-#{nth($breakpoint,1)}-a {
+            height: auto;
+         }
+
+         .w-#{nth($breakpoint,1)}-a {
+            width: auto;
+         }
+         .wh-#{nth($breakpoint,1)}-a {
+            width: auto;
+            height: auto;
+         }
+
+
+   }
+
+}

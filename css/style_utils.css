@@ -11735,6 +11735,56 @@ div, header, footer, section, article {
   width: auto;
   height: auto; }
 
+@media screen and (min-width: 0px) {
+  .h-xs-a {
+    height: auto; }
+
+  .w-xs-a {
+    width: auto; }
+
+  .wh-xs-a {
+    width: auto;
+    height: auto; } }
+@media screen and (min-width: 640px) {
+  .h-sm-a {
+    height: auto; }
+
+  .w-sm-a {
+    width: auto; }
+
+  .wh-sm-a {
+    width: auto;
+    height: auto; } }
+@media screen and (min-width: 1024px) {
+  .h-md-a {
+    height: auto; }
+
+  .w-md-a {
+    width: auto; }
+
+  .wh-md-a {
+    width: auto;
+    height: auto; } }
+@media screen and (min-width: 1200px) {
+  .h-lg-a {
+    height: auto; }
+
+  .w-lg-a {
+    width: auto; }
+
+  .wh-lg-a {
+    width: auto;
+    height: auto; } }
+@media screen and (min-width: 1200px) {
+  .h-xl-a {
+    height: auto; }
+
+  .w-xl-a {
+    width: auto; }
+
+  .wh-xl-a {
+    width: auto;
+    height: auto; } }
 .scroll-hidden {
   overflow-x: hidden;
   overflow-y: hidden; }
@@ -11751,6 +11801,86 @@ div, header, footer, section, article {
   overflow-x: auto;
   overflow-y: auto; }
 
+@media screen and (min-width: 0px) {
+  .scroll-xs-hidden {
+    overflow-x: hidden;
+    overflow-y: hidden; }
+
+  .scroll-xs-y {
+    overflow-y: auto;
+    overflow-x: hidden; }
+
+  .scroll-xs-x {
+    overflow-x: auto;
+    overflow-y: hidden; }
+
+  .scroll-xs-xy {
+    overflow-x: auto;
+    overflow-y: auto; } }
+@media screen and (min-width: 640px) {
+  .scroll-sm-hidden {
+    overflow-x: hidden;
+    overflow-y: hidden; }
+
+  .scroll-sm-y {
+    overflow-y: auto;
+    overflow-x: hidden; }
+
+  .scroll-sm-x {
+    overflow-x: auto;
+    overflow-y: hidden; }
+
+  .scroll-sm-xy {
+    overflow-x: auto;
+    overflow-y: auto; } }
+@media screen and (min-width: 1024px) {
+  .scroll-md-hidden {
+    overflow-x: hidden;
+    overflow-y: hidden; }
+
+  .scroll-md-y {
+    overflow-y: auto;
+    overflow-x: hidden; }
+
+  .scroll-md-x {
+    overflow-x: auto;
+    overflow-y: hidden; }
+
+  .scroll-md-xy {
+    overflow-x: auto;
+    overflow-y: auto; } }
+@media screen and (min-width: 1200px) {
+  .scroll-lg-hidden {
+    overflow-x: hidden;
+    overflow-y: hidden; }
+
+  .scroll-lg-y {
+    overflow-y: auto;
+    overflow-x: hidden; }
+
+  .scroll-lg-x {
+    overflow-x: auto;
+    overflow-y: hidden; }
+
+  .scroll-lg-xy {
+    overflow-x: auto;
+    overflow-y: auto; } }
+@media screen and (min-width: 1200px) {
+  .scroll-xl-hidden {
+    overflow-x: hidden;
+    overflow-y: hidden; }
+
+  .scroll-xl-y {
+    overflow-y: auto;
+    overflow-x: hidden; }
+
+  .scroll-xl-x {
+    overflow-x: auto;
+    overflow-y: hidden; }
+
+  .scroll-xl-xy {
+    overflow-x: auto;
+    overflow-y: auto; } }
 .p-t-0 {
   padding-top: 0px; }
 

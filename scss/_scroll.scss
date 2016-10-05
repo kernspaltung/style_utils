@@ -14,3 +14,29 @@
    overflow-x: auto;
    overflow-y: auto;
 }
+
+
+@each $breakpoint in $breakpoints {
+
+   @media screen and ( min-width: #{nth($breakpoint,2)} ) {
+
+      .scroll-#{nth($breakpoint,1)}-hidden {
+         overflow-x: hidden;
+         overflow-y: hidden;
+      }
+      .scroll-#{nth($breakpoint,1)}-y {
+         overflow-y: auto;
+         overflow-x: hidden;
+      }
+      .scroll-#{nth($breakpoint,1)}-x {
+         overflow-x: auto;
+         overflow-y: hidden;
+      }
+      .scroll-#{nth($breakpoint,1)}-xy {
+         overflow-x: auto;
+         overflow-y: auto;
+      }
+
+   }
+
+}
