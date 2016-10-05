@@ -2,25 +2,25 @@ $spacing: 15px;
 
 
 $breakpoints: (
-   xs 0,
-   sm 640,
-   md 1024,
-   lg 1200
+   xs 0px,
+   sm 640px,
+   md 1024px,
+   lg 1200px,
+   xl 1200px
 );
 
-
-@import 'oldies';
-
-@import 'reset';
-
-@import 'colors';
-
-@import 'wireframes';
-
-@import 'wh';
-
-@import 'scroll';
-
-@import 'spacing';
+// @import 'oldies';
+//
+// @import 'reset';
+//
+// @import 'colors';
+//
+// @import 'wireframes';
+//
+// @import 'wh';
+//
+// @import 'scroll';
+//
+// @import 'spacing';
 
 @import 'typography';

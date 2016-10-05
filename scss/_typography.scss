@@ -1,25 +1,39 @@
 $font-sizes: (
-  xxxs 7px,
-  xxs 9px,
-  xs 11px,
-  s 12px,
-  m-s 14px,
-  m 16px,
-  m-l 18px,
-  l 21px,
-  xl 24px,
-  xxl 28px,
-  xxxl 33px,
-  xxxxl 40px,
+xxxs 7px,
+xxs 9px,
+xs 11px,
+s 12px,
+m-s 14px,
+m 16px,
+m-l 18px,
+l 21px,
+xl 24px,
+xxl 28px,
+xxxl 33px,
+xxxxl 40px,
 );
 
 @debug "Generating font-size classes";
 
 
 @each $font-size in $font-sizes {
-
    .font-#{nth( $font-size, 1 )} {
-      font-size: nth( $font-size, 2 );
+      font-size: nth( $font-size, 2 ) !important;
+   }
+}
+@each $breakpoint in $breakpoints {
+
+
+
+   @media screen and ( min-width: #{nth($breakpoint,2)} ) {
+
+      @each $font-size in $font-sizes {
+         .font-#{nth($breakpoint,1)}-#{nth( $font-size, 1 )} {
+            font-size: nth( $font-size, 2 ) !important;
+         }
+
+      }
+
    }
 
 }
