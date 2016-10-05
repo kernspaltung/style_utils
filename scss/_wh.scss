@@ -11,7 +11,7 @@ $step_value_vw:1vw;
 $num_steps:100;
 
 @if $full_height {
-   @debug "$full_height is #{$show_wireframes}";
+   @debug "$full_height is #{$full_height}";
    div,header,footer,section,article {
       height: 100%;
    }
