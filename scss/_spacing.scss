@@ -25,6 +25,14 @@ $classes_and_properties: (
       @if $fraction == 0 {
          $property_value: ($spacing * $step);
 
+         @each $direction in $directions {
+
+            .#{$class_name}-#{nth($direction,1)}-#{$step} {
+               #{$property_name}-#{nth($direction,2)}: $property_value;
+            }
+
+         }
+
          .#{$class_name}-#{$step} {
             #{$property_name}: $property_value;
          }
@@ -36,9 +44,18 @@ $classes_and_properties: (
 
          }
 
+
       }
       @else {
          $property_value: ($spacing * $step) + (($spacing/4)*$fraction);
+
+         @each $direction in $directions {
+
+            .#{$class_name}-#{nth($direction,1)}-#{$step}-#{$fraction} {
+               #{$property_name}-#{nth($direction,2)}: $property_value;
+            }
+
+         }
 
          .#{$class_name}-#{$step}-#{$fraction} {
             #{$property_name}: $property_value;
