@@ -39,7 +39,7 @@ $classes_and_properties: (
          @each $direction in $directions {
 
             .#{$class_name}-#{nth($direction,1)}-#{$step} {
-               #{$property_name}-#{nth($direction,2)}: $property_value;
+               #{$property_name}-#{nth($direction,2)}: $property_value !important;
             }
 
          }
@@ -52,19 +52,19 @@ $classes_and_properties: (
          @each $direction in $directions {
 
             .#{$class_name}-#{nth($direction,1)}-#{$step}-#{$fraction} {
-               #{$property_name}-#{nth($direction,2)}: $property_value;
+               #{$property_name}-#{nth($direction,2)}: $property_value !important;
             }
 
          }
 
          .#{$class_name}-#{$step}-#{$fraction} {
-            #{$property_name}: $property_value;
+            #{$property_name}: $property_value !important;
          }
 
          @each $direction in $directions {
 
             .#{$class_name}-#{nth($direction,1)}-#{$step}-#{$fraction} {
-               #{$property_name}-#{nth($direction,2)}: $property_value;
+               #{$property_name}-#{nth($direction,2)}: $property_value !important;
             }
 
          }
@@ -82,12 +82,12 @@ $classes_and_properties: (
                $property_value: ($spacing * $step);
 
                .#{$class_name}-#{nth($breakpoint,1)}-#{$step} {
-                  #{$property_name}: $property_value;
+                  #{$property_name}: $property_value !important;
                }
 
                @each $direction in $directions {
                   .#{$class_name}-#{nth($direction,1)}-#{nth($breakpoint,1)}-#{$step} {
-                     #{$property_name}-#{nth($direction,2)}: $property_value;
+                     #{$property_name}-#{nth($direction,2)}: $property_value !important;
                   }
 
                }
@@ -98,12 +98,12 @@ $classes_and_properties: (
                $property_value: ($spacing * $step) + (($spacing/4)*$fraction);
 
                .#{$class_name}-#{nth($breakpoint,1)}-#{$step}-#{$fraction} {
-                  #{$property_name}: $property_value;
+                  #{$property_name}: $property_value !important;
                }
 
                @each $direction in $directions {
                   .#{$class_name}-#{nth($direction,1)}-#{nth($breakpoint,1)}-#{$step}-#{$fraction} {
-                     #{$property_name}-#{nth($direction,2)}: $property_value;
+                     #{$property_name}-#{nth($direction,2)}: $property_value !important;
                   }
 
                }
