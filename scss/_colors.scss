@@ -1,12 +1,17 @@
 
 $white: #fff;
 $black: #000;
-$primario: #0bc1ed;
-$secundario: #06a0bb;
-$terciario: #00f070;
+$primario: #38c12d;
+$primario_a: #48b12a;
+$primario_b: #28d136;
+$secundario: #42B27F;
+$terciario: #65B811;
 $neutral_claro: #eee;
 $neutral_medio: #aaa;
 $neutral_oscuro: #131416;
+
+$naranja: #EC7237;
+$amarillo: #ECC737;
 
 $lista-colores: (
   blanco   $white,
@@ -15,11 +20,15 @@ $lista-colores: (
   "white"   $white,
   "black"   $black,
   primario   $primario,
+  primario_a   $primario_a,
+  primario_b   $primario_b,
   secundario $secundario,
   terciario $terciario,
   neutral_claro $neutral_claro,
   neutral_medio $neutral_medio,
-  neutral_oscuro $neutral_oscuro
+  neutral_oscuro $neutral_oscuro,
+  naranja $naranja,
+  amarillo $amarillo,
 );
 
 
